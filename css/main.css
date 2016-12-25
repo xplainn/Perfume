@@ -1,0 +1,239 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+ul,li,a,p
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.public-first
+{
+	height:30px;
+	width:1900px;
+	background: #009B72;
+	position: relative;
+}
+
+.public-first .log
+{
+	margin-left: 1328px;
+	width:208px;
+	height:100%;
+	position: absolute;
+}
+
+.public-first .log .buttons
+{
+	width: 68px;
+	height:30px;
+	border-left:1px solid #47B488;
+	float: left;
+	text-align: center;
+
+}
+.public-first .log .buttons:nth-child(3)
+{
+	border-right: 1px solid #47B488;
+}
+
+.public-first .log .buttons a
+{
+	text-decoration: none;
+	color:white;
+	font-size: 14px;
+	display: block;
+	padding-top: 4px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+.public-second
+{
+	height:78px;
+	width: 1900px;
+	position: relative;
+	overflow: hidden;
+}
+
+.public-second .logo
+{
+	margin-left: 362px;
+	width: 400px;
+	height:100%;
+	background:url('../images/logo.png') no-repeat;
+	background-size: 50%;
+	margin-top: 15px;
+
+	
+}
+
+
+.public-second .logo a
+{
+	height:100%;
+	width: 100%;
+	display: block;
+}
+
+.public-third
+{
+	width:1900px;
+	height:325px;
+	margin-top: 5px;
+	position: relative;
+}
+
+.public-third .line-picture
+{
+	width:630px;
+	height:325px;
+	border-right: 5px solid white;
+	float: left;
+	
+}
+
+.public-third .line-picture:nth-child(1)
+{
+	background: url('../images/group1.jpg');
+	background-size: 100%;
+}
+.public-third .line-picture:nth-child(2)
+{
+	background: url('../images/group4.jpg');
+	background-size: 100%;
+}
+.public-third .line-picture:nth-child(3)
+{
+	border-right: 0px;
+	background: url('../images/041_size8.jpg');
+	background-size: 100%;
+}
+
+.public-fourth
+{
+	height:300px;
+	width: 1900px;
+	margin-top: 90px;
+}
+
+.public-fourth .inner
+{
+	margin:0 auto;
+	height: 100%;
+	width: 1400px;
+
+	position: relative;
+}
+
+.public-fourth .inner .news
+{
+	width: 342px;
+	height:300px;
+	border-right: 10px solid white;
+	
+	float: left;
+}
+
+.public-fourth .inner .news .logo
+{
+	width:150px;
+	height:70px;
+	background: url('../images/news.png');
+	background-position-y: -100px;
+}
+
+.public-fourth .inner .news .content
+{
+	width:342px;
+	height:150px;
+	text-indent: 2em;
+	margin-top: 20px;
+	
+}
+.public-fourth .inner .news .content a
+{
+	width: 100%;
+	height:100%;
+	display: block;
+	font-size: 23px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	text-decoration: none;
+	color:black;
+}
+
+.public-fourth .inner .news .time
+{
+	height: 60px;
+	width: 342px;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+
+.public-fourth .inner .news .time p
+{
+	font-size: 20px;
+
+}
+.public-fourth .news:nth-child(4)
+{
+	border-right: 0px;
+}
+
+
+.public-fifth
+{
+	height: 100px;
+	width: 1900px;
+	margin-top: 90px;
+	
+}
+
+.public-fifth .inner
+{
+	margin:0 auto;
+	width:1320px;
+	height:100px;
+	position: relative;
+}
+
+.public-fifth .inner .media
+{
+	width: 435px;
+	height:100px;
+	background: black;
+	border-right: 5px solid white;
+	float: left;
+
+}
+
+.public-fifth .inner .media:nth-child(3)
+{
+	border-right: 0;
+}
+
+.public-last
+{
+	width:1900px;
+	height:100px;
+	background: #47B488;
+	margin-top: 90px;
+
+}
+
+.public-last .inner
+{
+	margin: 0 auto;
+	width:400px;
+	height:100px;
+	text-align: center;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+.public-last .inner p
+{
+	font-size: 35px;
+}
